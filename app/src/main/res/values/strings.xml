@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Personnalisation Fragment</string>
+    <string name="name">Votre nom :</string>
+    <string name="place_holder">Pascal Ladale</string>
+    <string name="age">Votre âge :</string>
+    <string name="toggle_switch">Bloquer action :</string>
+    <string name="slider">Valeurs souhaiter</string>
+    <string name="color_picker">Votre couleur préférer :</string>
+</resources>
