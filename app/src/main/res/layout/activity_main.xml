@@ -2,6 +2,7 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ygg="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,26 +12,82 @@
     android:padding="20dp"
     android:id="@+id/mainBG">
 
-    <TextView
-        android:id="@+id/test_1"
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="test"
-        android:textSize="25dp"
-        android:gravity="center"
-        android:padding="15dp"/>
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            style="@style/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:layout_weight="1"
+            android:gravity="left"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/rounded_ligth"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:textColor="@color/dark"
+            android:hint="@string/place_holder"
+            android:padding="10dp"/>
+
+    </LinearLayout>
 
     <TextView
-        android:id="@+id/test_2"
+        android:id="@+id/s1"
+        ygg:mon_tag="TEST-TAG"
+        style="@style/separate"/>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="test"
-        android:textSize="25dp"
-        android:gravity="center"
-        android:padding="15dp"/>
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toggle_switch"/>
+
+        <android.support.v7.widget.SwitchCompat
+            style="@style/monSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/s2"
+        style="@style/separate" />
+
+    <TextView
+        style="@style/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/slider"
+        android:layout_marginBottom="10dp"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="400"
+        android:progress="40" />
 
 
-    <TextView style="@style/separate" />
+    <TextView
+        android:id="@+id/s3"
+        style="@style/separate" />
 
 
     <com.madrapps.pikolo.HSLColorPicker
