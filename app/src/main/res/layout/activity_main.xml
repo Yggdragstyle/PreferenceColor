@@ -5,77 +5,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="test.ygg.life.testpreferencesfrag.MainActivity"
+    tools:context="com.example.ygg.personnalisation_fragment_v4.MainActivity"
     android:orientation="vertical"
     android:background="@color/bg"
-    android:padding="20dp">
-
-    <LinearLayout
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal">
-
-        <TextView
-            style="@style/label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/name"
-            android:layout_weight="1"
-            android:gravity="left"/>
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:background="@drawable/rounded_ligth"
-            android:textStyle="normal"
-            android:textSize="20sp"
-            android:textColor="@color/dark"
-            android:hint="@string/place_holder"
-            android:padding="10dp"/>
-
-    </LinearLayout>
-
-    <TextView style="@style/separate"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            style="@style/label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/toggle_switch"/>
-
-        <android.support.v7.widget.SwitchCompat
-            style="@style/monSwitch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:layout_marginLeft="20dp"/>
-
-    </LinearLayout>
-
-    <TextView style="@style/separate" />
+    android:padding="20dp"
+    android:id="@+id/mainBG">
 
     <TextView
-        style="@style/label"
+        android:id="@+id/test_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/slider"
-        android:layout_marginBottom="10dp"/>
+        tools:text="test"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:padding="15dp"/>
 
-    <SeekBar
+    <TextView
+        android:id="@+id/test_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:max="400"
-        android:progress="40" />
+        tools:text="test"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:padding="15dp"/>
+
 
     <TextView style="@style/separate" />
+
 
     <com.madrapps.pikolo.HSLColorPicker
         android:id="@+id/colorPickerPikolo"
