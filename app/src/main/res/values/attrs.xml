@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ygg">
+        <attr name="mon_tag" format="string" />
+    </declare-styleable>
+
+</resources>
