@@ -1,0 +1,26 @@
+# pack-refs with: peeled fully-peeled 
+4cc090222a56301173d0a3248297deaecb831085 refs/heads/chapter-10
+9f6362b739e382607e43a49c4f27116e347e2e8f refs/heads/chapter-11
+5752b578b0001dfc7e6e83a28392828261e8c399 refs/heads/chapter-12
+d90b3d5401c032e42bb0dc432107dbd689eef245 refs/heads/chapter-13
+6be150e258a178da9f59ce3e3b0fdf4f055fc8b2 refs/heads/chapter-14
+6b0e87f5125c4f2d201ac7794489270831553d38 refs/heads/chapter-15
+e755ad8b4622a8f38b196024e1d956dfd4d800c0 refs/heads/chapter-16
+4b7f96aa480ade17b3a509683bb833ab48c4996a refs/heads/chapter-17
+c72118e411a9462a37370c1f53a31fc63fe6748b refs/heads/chapter-19
+2eeab94cc583272f5bd558778acc7f8ff8bd3ac2 refs/heads/chapter-21
+69a8755640c2980474956610d479dd885bd0f6cf refs/heads/chapter-23
+7a07d552323e215186fdd49af546616c9065cf6c refs/heads/chapter-24
+eb380be8ce1fc98bb724df68d9b39d756484674e refs/heads/chapter-25
+e8b4e42d98f4b808a9c3bcbb1839de522b09af05 refs/heads/chapter-26
+b6004f8c91ec57aa8289fcedde2d85d6c13f680f refs/heads/chapter-27
+3671c1d7d9f2e86af3087739011f095e497bb625 refs/heads/chapter-28
+d6ab6ed54f53666c0e3a10c249f74872d7314c97 refs/heads/chapter-3
+c7551306b0a7232797ddefdc6f9af8de5b160a38 refs/heads/chapter-5
+2d2f9e2b2fa977c7adccd08f073f70c9fa60de66 refs/heads/chapter-7
+47775d9ad16d1b4bdaa4154ab1a92e7f352f49e5 refs/heads/chapter-8
+678f3f381c6dc5d5176acbdb7c28916b6c1b34fd refs/heads/master
+4c3ce131796542641d4a0a4beef64c4957d622d9 refs/heads/master-january-2017
+154506dd05293cca7e2bc3ae586d0b043cb9f167 refs/heads/master-july2017
+2f2c98934172f52b049b5731741594177dd13b8b refs/heads/master-june-2017
+536d1bd38dc46a9a185cac3407e32aa9cd09737f refs/heads/master-march-2016
